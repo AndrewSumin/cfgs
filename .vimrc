@@ -10,6 +10,6 @@ set nobackup
 set tabstop=4
 set shiftwidth=4
 colorscheme adaryn
-map ,ff :FuzzyFinderFile
+map ff :FuzzyFinderFile
 let g:FindFileIgnore = ['*.o', '*.pyc', '*/tmp/*', '*/target/*']
 let NERDTreeShowHidden=1
