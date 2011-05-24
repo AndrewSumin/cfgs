@@ -19,4 +19,7 @@ colorscheme c16gui
 let g:fuf_file_exclude = '\v\~$|\.(o|exe|pyc|java|dll|bak|orig|swp)$|(^|[/\\])\.?(hg|git|bzr|target)($|[/\\])'
 "map ff :FuzzyFinderFile! **/<CR>
 map ff :FufFile! **/<CR>
+map - :tabprevious <CR>
+map = :tabnext <CR>
+map + :tabnew <CR>
 let NERDTreeShowHidden=1
